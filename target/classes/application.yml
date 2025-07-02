@@ -15,3 +15,7 @@ spring:
       hibernate:
     show-sql: false
     open-in-view: false
+
+
+#-Dserver:port=8001: na config VM options do Startup 8001
+# HeidiSQL - foo_bar -> exchange e exchange_service
