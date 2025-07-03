@@ -19,6 +19,12 @@ spring:
       hibernate:
     show-sql: false
     open-in-view: false
+springdoc:
+  api-docs:
+    path: exchange-service/v3/api-docs
+  swagger-ui:
+    url: exchange-service/v3/api-docs
+  override-server-url: true
 
 
 #-Dserver.port=8001 -> na config VM options do Startup 8001
